@@ -132,7 +132,7 @@ a:visited {
 a:hover,
 a:active {
   color: #555;
-  border: 1px solid transparent;
+  border-bottom: 1px solid transparent;
   -webkit-transition: border-bottom 0.2s, color 0.2s;
   transition: border-bottom 0.2s, color 0.2s;
 }
@@ -257,6 +257,20 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
   border-bottom: 2px solid #e67e22;
+}
+
+/* MOBILE NAV */
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
 }
 
 /* STICKY NAV */
